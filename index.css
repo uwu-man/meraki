@@ -184,6 +184,7 @@ footer{
 
 h3{
     color: var(--white);
+    font-size: larger;
     display: flex;
     justify-content: space-between;
     padding-left: 10%;
@@ -195,12 +196,14 @@ h3{
     display:flex;
     align-items: flex-end;
     justify-content: flex-end;
+    padding-right: 10.4% ;
+    padding-top: 5px;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
-    padding-left: 3px;
+    padding-left: 7px;
  }
 
  .last-logo{
