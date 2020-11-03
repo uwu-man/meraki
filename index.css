@@ -213,3 +213,55 @@ h3{
  .logo-contatos{
      width:20vw
  }
+
+ /* Questionario */
+
+ .questionario{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-size: medium;
+    text-align: center;
+    color: var(--azul-meraki);
+    font-weight: bolder;
+}
+
+ .questionario-box{
+     background-color: #C4C4C4;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+
+.tipo1{
+    width: 50%;
+    height: 30px;
+}
+.tipo2{
+    width: 90%;
+    height: 30px;
+}
+.tipo3{
+    width: 93.333%;
+    height: 30px;
+}
+.tipo4{
+    width: 50%;
+    height: 90px;
+}
+
+.idade-e-cel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.idade{
+    width: 20%;
+    margin-right: 2%;
+}
+.cel{
+    width: 30%;
+}
+
+.questionario .buttonpage{
+    margin-bottom: 30px;
+}
