@@ -126,6 +126,9 @@ header{
     background-position: center;
     position: relative;
 }
+#voltar-button{
+    margin-bottom: 20px;
+}
 
 .bg-azul-borda{
     display:flex;
@@ -216,6 +219,7 @@ h3{
 
  /* Questionario */
 
+
  .questionario{
     display: block;
     font-family: 'Raleway', sans-serif;
@@ -264,4 +268,50 @@ h3{
 
 .questionario .buttonpage{
     margin-bottom: 30px;
+}
+
+.texto-questionario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 75%;    
+}
+
+.subsubtitulo-questionario{
+    width: 65%;
+}
+
+.questionario-opicional{
+    padding:3em 0em;
+    background: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+h2.white-text{
+    color: #ffffff;
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.perguntas-branco{
+    color: #ffffff;
+}
+
+.questionario-ultimo-item{
+    margin-bottom: 50px;
+}
+
+.questionario .texto-azul{
+    color: var(--azul-meraki);
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 25%;
 }
