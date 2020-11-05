@@ -42,15 +42,16 @@ img {
 
 ul {
 }
-ul li {
+.side-nav ul li {
     padding:1vh;
     padding-left: 10%;
 }
-ul li a{
+.side-nav ul li a{
     font-size: 150%;
+    font-weight:100;
 }
 
-ul li a:hover {
+.side-nav ul li a:hover {
     cursor: pointer;
     color:var(--azul-meraki);
 }

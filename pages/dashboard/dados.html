@@ -8,17 +8,18 @@
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
+    <link href="../../css/dashboard/dados.css" rel="stylesheet"/>
 </head>
 <body>
     <nav class='side-nav'>
         <img src='../../assets/MERAKI_LogoHorizontal_fundotransparente.png'>
         <div class='horizontal-space'></div>
         <ul>
-            <li class='side-nav-selected'>
+            <li>
                 <span class="iconify" data-inline="false" data-icon="ant-design:home-filled"></span>
                 <a href='./inicio.html'>Inicio</a>
             </li>
-            <li>
+            <li class='side-nav-selected'>
                 <span class="iconify" data-inline="false" data-icon="bx:bxs-data" id='data-icon'></span>
                 <a href='./dados.html'>Seus dados</a>
             </li>
@@ -44,7 +45,18 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <ul>
+                <li>Nome: Fernanda Monteiro</li>
+                <li>E-mail: fernandamonteiro@gmail.com</li>
+                <li>Telefone: 11 9 1234-5678</li>
+                <li>Curso pretendido: Psicologia</li>
+            </ul>
+            <div style="display:flex;flex-direction: column;">
+                <img src='../../assets/woman.svg'>
+                <button id='edit-profile-button'>Editar perfil</button>
+            </div>
+        </div>
     </main>
 
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
