@@ -96,3 +96,15 @@ h2.white-text{
     text-align: left;
     margin-left: 25%;
 }
+
+/* Nav superior */
+
+.nav-superior {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#voltar-button {
+    position: fixed;
+    right: 50px;
+}
