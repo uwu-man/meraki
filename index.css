@@ -89,8 +89,10 @@ header{
  }
 
  #login-button {
-    position:relative;
-    top:-1vh;
+    position: fixed;
+    right: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
  }
 
  /* Main */

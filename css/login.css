@@ -1,0 +1,166 @@
+/* Definições gerais */
+body {
+    width:100vw;
+    max-width: 100%;
+}
+body img {
+    width: 15vw; 
+}
+main {
+    position: relative;
+    font-size: 120%;
+}
+footer {
+    font-size: 120%;
+}
+.buttonpage {
+    background-color: var(--azul-meraki);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--white);
+    width: fit-content;
+    align-self: center;
+    font-weight: 500;
+}
+
+.buttonpage:hover {
+    background-color: #8edafa ;
+    color: var(--white);
+}
+
+.button-branco {
+    background-color: var(--white);
+    color: var(--azul-meraki);
+}
+
+.button-branco:hover {
+    background-color: #ccc;
+    color: var(--azul-meraki);
+}
+
+.button-azul {
+    color:white;
+}
+
+/* Nav superior*/
+
+header{ 
+    height: 12vh;
+}
+
+.nav-superior {
+    width:100vw;
+    display:flex;
+    position:fixed;
+    background-color: var(--white);
+    z-index:2;
+    justify-content: center;
+}
+
+#logo-nav-sup {
+    width:15em;
+}
+
+#voltar-button {
+    position: fixed;
+    right: 50px;
+    margin-bottom: 10px;
+}
+
+/* main */ 
+
+main {
+    background-color: var(--azul-meraki);
+    height: 500px;
+}
+
+.titleAzul {
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.texto-conteudo {
+    margin-top: 5vh;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    border-radius: 5px;
+    background-color: #C4C4C4;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#password-button {
+    font-size: 15px;
+    cursor: pointer; 
+    text-decoration: none;
+    color: #444;
+}
+
+.button-branco {
+    background-color: var(--white);
+    color: var(--azul-meraki);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    font-weight: 500;
+}
+
+.button-branco:hover {
+    background-color: #ccc;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--azul-meraki); 
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+ }
+
+h3{
+    color: var(--white);
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+ }
+
+ .logo-redes{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10.4% ;
+    padding-top: 5px;
+ }
+
+ .logo-redes img {
+    width: 2em;
+    height: auto;
+    padding-left: 7px;
+ }
+
+ .last-logo{
+     padding-right: 10%;
+ }
+
+ .logo-contatos{
+     width:20vw
+ }

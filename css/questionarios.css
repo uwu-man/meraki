@@ -107,4 +107,5 @@ h2.white-text{
 #voltar-button {
     position: fixed;
     right: 50px;
+    margin-bottom: 10px;
 }
