@@ -1,4 +1,3 @@
-/* Definições gerais */
 body {
     width:100vw;
     max-width: 100%;
@@ -53,7 +52,6 @@ footer {
 /* Nav superior*/
 header{ 
     height: 12vh;
-    
 }
 
 .nav-superior {
@@ -89,8 +87,10 @@ header{
  }
 
  #login-button {
-    position: relative;
-    width: 10px;
+    position: fixed;
+    right: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
  }
 
  /* Main */
