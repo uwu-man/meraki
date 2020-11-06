@@ -52,7 +52,7 @@ footer {
 
 /* Nav superior*/
 header{ 
-    height: 10vh;
+    height: 12vh;
     
 }
 
@@ -125,6 +125,9 @@ header{
     background-size: 100% 100%;
     background-position: center;
     position: relative;
+}
+#voltar-button{
+    margin-bottom: 20px;
 }
 
 .bg-azul-borda{
@@ -213,5 +216,3 @@ h3{
  .logo-contatos{
      width:20vw
  }
-
- 
