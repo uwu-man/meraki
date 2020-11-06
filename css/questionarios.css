@@ -67,9 +67,10 @@
     padding:3em 0em;
     background: url(../assets/bg.svg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
     background-position: center;
     position: relative;
+
 }
 
 h2.white-text{
