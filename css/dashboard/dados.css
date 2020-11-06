@@ -1,0 +1,38 @@
+.content {
+    display:flex;
+}
+
+.content ul {
+    width: inherit;
+    padding:4vh;
+}
+.content ul li {
+    border:2px solid var(--gray);
+    padding:1rem;
+    margin:1rem 0;
+    border-radius: 0.5rem;
+    font-size: 130%;
+}
+
+.content img {
+    
+    height: 15rem;
+    width:15rem;
+    margin:2rem;
+    border-radius: 1000px;
+    border:5px solid var(--azul-meraki)
+}
+
+#edit-profile-button {
+    align-self: center;
+    width: fit-content;
+    background-color:var(--azul-meraki);
+    color:white;
+    padding:5px;
+    border-radius: .5rem;
+    border:none;
+}
+
+#edit-profile-button:hover {
+    cursor: pointer;
+}
