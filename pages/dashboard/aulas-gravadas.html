@@ -8,7 +8,6 @@
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
-    <link href="../../css/dashboard/dados.css" rel="stylesheet"/>
 </head>
 <body>
     <nav class='side-nav'>
@@ -19,11 +18,11 @@
                 <span class="iconify" data-inline="false" data-icon="ant-design:home-filled"></span>
                 <a href='./inicio.html'>Inicio</a>
             </li>
-            <li class='side-nav-selected'>
+            <li>
                 <span class="iconify" data-inline="false" data-icon="bx:bxs-data" id='data-icon'></span>
                 <a href='./dados.html'>Seus dados</a>
             </li>
-            <li>
+            <li class='side-nav-selected'>
                 <span class="iconify" data-inline="false" data-icon="ant-design:folder-filled"></span>
                 <a href='./material.html'>Material</a>
             </li>
@@ -45,17 +44,9 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content" id='data-content' >
-            
-        </div>
+        <div class="content"></div>
     </main>
 
-    <script src="./dados.js"></script>
-    <script src="./util.js"></script>
-    <script>
-        let template = createTemplate();
-        renderDados(template);
-    </script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
     padding:1rem;
     margin:1rem 0;
     border-radius: 0.5rem;
-    font-size: 130%;
+    font-size: 1.3rem;
 }
 
 .content img {
@@ -35,4 +35,11 @@
 
 #edit-profile-button:hover {
     cursor: pointer;
+}
+
+#data-content input {
+    border:2px solid var(--gray);
+    border-radius: 5px; 
+    width:100%;
+    font-size: 1.30rem;
 }

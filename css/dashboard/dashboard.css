@@ -51,7 +51,7 @@ ul {
     font-weight:100;
 }
 
-.side-nav ul li a:hover {
+.side-nav ul li:hover {
     cursor: pointer;
     color:var(--azul-meraki);
 }
