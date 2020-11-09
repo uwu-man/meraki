@@ -26,6 +26,7 @@ img {
 
 .side-nav {
     width:17vw;
+    height:100vh;
     background-color: var(--white);
 }
 
@@ -42,11 +43,11 @@ img {
 
 ul {
 }
-.side-nav ul li {
-    padding:1vh;
-    padding-left: 10%;
-}
+
 .side-nav ul li a{
+    padding:1vh;
+    display:block;
+    width: 100%;
     font-size: 150%;
     font-weight:100;
 }
