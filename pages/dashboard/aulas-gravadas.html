@@ -10,32 +10,7 @@
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
 </head>
 <body>
-    <nav class='side-nav'>
-        <img src='../../assets/MERAKI_LogoHorizontal_fundotransparente.png'>
-        <div class='horizontal-space'></div>
-        <ul>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="ant-design:home-filled"></span>
-                <a href='./inicio.html'>Inicio</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="bx:bxs-data" id='data-icon'></span>
-                <a href='./dados.html'>Seus dados</a>
-            </li>
-            <li class='side-nav-selected'>
-                <span class="iconify" data-inline="false" data-icon="ant-design:folder-filled"></span>
-                <a href='./material.html'>Material</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="bx:bxs-brain"></span>
-                <a href='./exercicios.html'>Exercicios</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="ant-design:warning-filled"></span>
-                <a href='./avisos.html'>Avisos</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="sidenav"></div>
     <main>
         <div class='content-header'>
             <div id='content-header-text'>
@@ -47,6 +22,13 @@
         <div class="content"></div>
     </main>
 
+
+    <script src="./sidenav.js"></script>
+    <script src="./util.js"></script>
+    <script>
+        let template = createTemplate();
+        renderSidenav(template, "material");
+    </script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>
