@@ -4,38 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-
+    
+    <link rel="stylesheet" type="text/css" href="../../slick/slick.css"> 
+    <link rel="stylesheet" type="text/css" href="../../slick/slick-theme.css">
+    
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
+    <link rel='stylesheet' href='../../css/dashboard/carrossel.css'>
+
 </head>
 <body>
-    <nav class='side-nav'>
-        <img src='../../assets/MERAKI_LogoHorizontal_fundotransparente.png'>
-        <div class='horizontal-space'></div>
-        <ul>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="ant-design:home-filled"></span>
-                <a href='./inicio.html'>Inicio</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="bx:bxs-data" id='data-icon'></span>
-                <a href='./dados.html'>Seus dados</a>
-            </li>
-            <li class='side-nav-selected'>
-                <span class="iconify" data-inline="false" data-icon="ant-design:folder-filled"></span>
-                <a href='./material.html'>Material</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="bx:bxs-brain"></span>
-                <a href='./exercicios.html'>Exercicios</a>
-            </li>
-            <li>
-                <span class="iconify" data-inline="false" data-icon="ant-design:warning-filled"></span>
-                <a href='./avisos.html'>Avisos</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="sidenav"></div>
     <main>
         <div class='content-header'>
             <div id='content-header-text'>
@@ -44,9 +24,41 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <div class="carrossel-container ">
+                <div class="carrossel-videos slider" id="carrossel-biologia">
+                    
+                </div>
+            </div>
+            
+        </div>
     </main>
 
+    <!-- Scripts para renderizar o sidenav/fetch-->
+    <script src="./components/util.js"></script>
+    <script src="./components/Sidenav/sidenav.js"></script>
+    <script src="./components/Carrossel/carrossel.js"></script>
+    <script>
+        let template = createTemplate();
+        renderSidenav(template, "material");
+        renderCarrossel(template, "carrossel-biologia");
+        setupCarrossel();
+    </script>
+
+    <!-- Scripts para rodar o carrossel do slick-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../../slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        ('.carrossel-videos').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            centerMode:true,
+          });
+ </script>
+    
+    <!-- Script para os icones do sidenav-->
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+        .slick-prev:before, .slick-next:before {
+            color: var(--azul-meraki);
+        }
+        .carrossel-videos {
+            border:2px solid black;
+            width:90%;
+        }
+        .carrossel-container {
+            display:flex;
+            border:2px solid green;
+            flex-direction: row;
+            width:100%;
+            height:10vh;
+            justify-content: center;
+        }
