@@ -8,7 +8,6 @@
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
-    <link href="../../css/dashboard/dados.css" rel="stylesheet"/>
 </head>
 <body>
     <div id="sidenav"></div>
@@ -20,21 +19,15 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content" id='data-content' >
-            
-        </div>
+        <div class="content"></div>
     </main>
 
-    <script src="./dados.js"></script>
-    <script src="./util.js"></script>
+
     <script src="./sidenav.js"></script>
+    <script src="./util.js"></script>
     <script>
         let template = createTemplate();
-        renderSidenav(template, "dados");
-    </script>
-    <script>
-        let template = createTemplate();
-        renderDados(template);
+        renderSidenav(template, "material");
     </script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
