@@ -24,39 +24,28 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content">
-            <div class="carrossel-container ">
-                <div class="carrossel-videos slider" id="carrossel-biologia">
-                    
-                </div>
-            </div>
+        <div class="carrossel-container content" id="carrossel-container">
             
         </div>
+        
     </main>
 
     <!-- Scripts para renderizar o sidenav/fetch-->
     <script src="./components/util.js"></script>
     <script src="./components/Sidenav/sidenav.js"></script>
     <script src="./components/Carrossel/carrossel.js"></script>
-    <script>
-        let template = createTemplate();
-        renderSidenav(template, "material");
-        renderCarrossel(template, "carrossel-biologia");
-        setupCarrossel();
-    </script>
 
     <!-- Scripts para rodar o carrossel do slick-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../../slick/slick.min.js"></script>
 
-    <script type="text/javascript">
-        ('.carrossel-videos').slick({
-            centerMode: true,
-            slidesToShow: 3,
-            centerMode:true,
-          });
- </script>
+    <script>
+        let template = createTemplate();
+        renderSidenav(template, "material");
+        renderCarouselPage(template);
+    </script>
+
     
     <!-- Script para os icones do sidenav-->
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
