@@ -14,14 +14,14 @@ let createDisciplina = async (template, color, tituloDisciplina, iconID, db_page
         .replace("@{iconID}", iconID)
         .replaceAll("@{color}", color)
         .replace("@{sublista-disciplina}", createSublistaDisciplina(db_page))
-        .replace("@{titulo-disciplina}", tituloDisciplina)
+        .replace("@{titulo-disciplina}", `${tituloDisciplina}`)
         .replace("@{buttonfn}",`renderCarouselPage(${db_page_string},"aulasGravadas")`);
 }
 
 let createSublistaDisciplina = (db_page) => {
     let sublista = "";
     for (let subitem in db_page){
-        sublista += `<p>${subitem}</p>`;
+        sublista += `<p>${db_page[subitem].titulo}</p>`;
     }
     return sublista;
 }

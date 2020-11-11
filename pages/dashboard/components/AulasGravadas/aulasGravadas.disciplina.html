@@ -3,9 +3,9 @@
     <span class="iconify icon-disciplina" data-inline="false" data-icon=@{iconID} style="color:@{color};"></span>
     </div>
     <div class="data-disciplina">
-        <div>
-            @{titulo-disciplina}
-            <button type="button" onclick=@{buttonfn}>Botao</button>
+        <div class="primeira-linha-disciplina">
+        <p class="titulo-disciplina" style="color:@{color}"> @{titulo-disciplina}</p>
+            <button type="button" onclick=@{buttonfn} class="button-disciplina" style="background-color: @{color};">Ver aulas</button>
         </div>
         <div style="border:2px solid @{color};width:80%;margin:1vh 0;"></div>
         <div>

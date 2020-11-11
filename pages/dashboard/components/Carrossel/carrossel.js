@@ -18,7 +18,7 @@ let renderCarouselPage = async (carouselsContainer, HTML_ID) => {
 
 /*Cria o HTML com várias divs. Cada div vai receber um carrossel depois*/
 let createBaseCarousel = (carouselsContainer) => {
-    let baseCarrossel = '';
+    let baseCarrossel = `<button type="button" onclick="renderAulasGravadas(template,'aulasGravadas')" class="button-voltar">Voltar</button>`;
     
     for(let carouselID in carouselsContainer){
         baseCarrossel +=`<p class="titulo-carrossel">${carouselsContainer[carouselID].titulo}</p>`;
