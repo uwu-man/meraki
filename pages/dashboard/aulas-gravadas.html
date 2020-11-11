@@ -24,13 +24,16 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="carrossel-container content" id="carrossel-container">
+        <div class="carrossel-container content" id="aulasGravadas">
             
         </div>
         
     </main>
 
-    <!-- Scripts para renderizar o sidenav/fetch-->
+    <script src="./components/AulasGravadas/aulasGravadas.js"></script>
+
+    <!-- Scripts para renderizar o sidenav/fetch/utilitarios-->
+    <script src="./components/pseudo-db.js"></script>
     <script src="./components/util.js"></script>
     <script src="./components/Sidenav/sidenav.js"></script>
     <script src="./components/Carrossel/carrossel.js"></script>
@@ -43,7 +46,8 @@
     <script>
         let template = createTemplate();
         renderSidenav(template, "material");
-        renderCarouselPage(template);
+        renderAulasGravadas(template, "aulasGravadas");
+        //renderCarouselPage(pseudo_db.aulasGravadas.matematica,"aulasGravadas");
     </script>
 
     

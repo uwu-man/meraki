@@ -6,6 +6,9 @@
     --gray-light: #E6E6E6;
     --gray: #B3B3B3;
     --black: #000000;
+
+    --biologia:#50F861;
+    --matematica:#0028FC;
 }
 body {
     font-family: 'Raleway', sans-serif  ;   
