@@ -100,10 +100,6 @@ h2.white-text{
 
 /* Nav superior */
 
-.nav-superior {
-    flex-direction: row;
-    justify-content: center;
-}
 
 #voltar-button {
     position: fixed;

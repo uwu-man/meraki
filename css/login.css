@@ -85,8 +85,9 @@ main {
 
 .texto-conteudo {
     margin-top: 5vh;
+    margin-bottom: 100px;
     display: flex;
-    height: 300px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -124,43 +125,10 @@ main {
     background-color: #ccc;
 }
 
-/* Footer */
+.login-separacao{
+    margin: 5vh;
+}
 
-footer{
-    background-color: var(--azul-meraki); 
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
- }
 
-h3{
-    color: var(--white);
-    font-size: larger;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5px;
- }
 
- .logo-redes{
-    display:flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-right: 10.4% ;
-    padding-top: 5px;
- }
 
- .logo-redes img {
-    width: 2em;
-    height: auto;
-    padding-left: 7px;
- }
-
- .last-logo{
-     padding-right: 10%;
- }
-
- .logo-contatos{
-     width:20vw
- }
