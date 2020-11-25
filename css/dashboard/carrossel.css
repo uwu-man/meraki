@@ -1,0 +1,96 @@
+/*CSS para renderizar os carrrosséis*/
+.slick-prev:before, .slick-next:before {
+    color: var(--azul-meraki);
+    }
+.carrossel-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    
+    
+}
+.carrossel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90%;
+}
+        
+.carrossel-item {
+    margin:1vw;
+}
+
+.carrossel-item img {
+    width:100%;
+    border-radius: 10px;
+    border: 3px solid var(--azul-meraki);
+}
+
+.titulo-carrossel {
+    font-size:1.5rem;
+    width:90%;
+    color:var(--azul-meraki);
+    margin-top: 2vh;
+}
+
+.button-voltar {
+    background-color: var(--azul-meraki);
+    border:none;
+    margin-top: 2vh;
+    padding:5px;
+    color:white;
+    border-radius: 5px;
+}
+
+/*CSS pro display das disciplinas gravadas*/
+.content-disciplina {
+    width:90%;
+    height:30vh;
+    border-radius: 10px;
+    margin:2vh 0;
+
+    display:flex;
+
+}
+
+.logo-disciplina {
+    width:35%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-disciplina {
+    width:65%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-disciplina {
+    font-size:12rem;
+}
+
+.button-disciplina {
+    padding:5px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+
+.primeira-linha-disciplina {
+    display: flex;
+    width:70%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo-disciplina {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+

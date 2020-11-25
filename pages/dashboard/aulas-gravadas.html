@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-
+    
+    <link rel="stylesheet" type="text/css" href="../../slick/slick.css"> 
+    <link rel="stylesheet" type="text/css" href="../../slick/slick-theme.css">
+    
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
+    <link rel='stylesheet' href='../../css/dashboard/carrossel.css'>
+
 </head>
 <body>
     <div id="sidenav"></div>
@@ -19,16 +24,34 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content"></div>
+        <div class="carrossel-container content" id="aulasGravadas">
+            
+        </div>
+        
     </main>
 
 
-    <script src="./sidenav.js"></script>
-    <script src="./util.js"></script>
+    <script src="./components/AulasGravadas/aulasGravadas.js"></script>
+
+    <!-- Scripts para renderizar o sidenav/fetch/utilitarios-->
+    <script src="./components/pseudo-db.js"></script>
+    <script src="./components/util.js"></script>
+    <script src="./components/Sidenav/sidenav.js"></script>
+    <script src="./components/Carrossel/carrossel.js"></script>
+
+    <!-- Scripts para rodar o carrossel do slick-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../../slick/slick.min.js"></script>
+
     <script>
         let template = createTemplate();
         renderSidenav(template, "material");
+        renderAulasGravadas(template, "aulasGravadas");
+        //renderCarouselPage(pseudo_db.aulasGravadas.matematica,"aulasGravadas");
     </script>
+
+    
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@
     <link href="../../ref.css" rel="stylesheet"/>
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
+
+    <style>
+        
+    </style>
 </head>
 <body>
     <div id="sidenav">
@@ -21,15 +25,23 @@
             </div>
             <img id='upper-person-picture' src='../../assets/woman.svg'>
         </div>
-        <div class="content"></div>
+        <div class="content">
+           
+        </div>
     </main>
 
-    <script src="./sidenav.js"></script>
-    <script src="./util.js"></script>
+    <script src="./components/Sidenav/sidenav.js"></script>
+    <script src="./components/util.js"></script>
     <script>
         let template = createTemplate();
         renderSidenav(template, "inicio");
     </script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script>
+        funccollapse = (event) =>{
+            console.log(this.className);
+        }
+    </script>
 </body>
 </html>

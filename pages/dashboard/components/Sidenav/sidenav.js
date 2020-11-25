@@ -1,5 +1,5 @@
 let renderSidenav = async (template, pageSelection) => {
-    let HTMLTemplate = await template.fetchTemplateHTML("./dashboard.sidenav.html");
+    let HTMLTemplate = await template.fetchTemplateHTML("./components/Sidenav/dashboard.sidenav.html");
     switch (pageSelection){
         case "inicio":
             HTMLTemplate = HTMLTemplate

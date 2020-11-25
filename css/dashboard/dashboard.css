@@ -111,4 +111,5 @@ main {
     height:88%;
     border-radius:10px;
     background-color:var(--white);
+    max-width: 79vw;
 }

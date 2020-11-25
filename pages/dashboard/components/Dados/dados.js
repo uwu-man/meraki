@@ -1,5 +1,6 @@
 let renderDadosDisplay = async (template) => {
-    let htmlTemplate = await template.fetchTemplateHTML('./dados.display.html');
+    let htmlTemplate = await template.fetchTemplateHTML('./components/Dados/dados.display.html');
+    console.log(htmlTemplate);
     document.getElementById("data-content").innerHTML = htmlTemplate
         .replace("@{userName}", "Fernanda Monteiro")
         .replace("@{userEmail}","fernanda_monteiro@gmail.com")
@@ -8,7 +9,7 @@ let renderDadosDisplay = async (template) => {
 }
 
 let renderDadosEdit= async (template) => {
-    let htmlTemplate = await template.fetchTemplateHTML('./dados.edit.html');
+    let htmlTemplate = await template.fetchTemplateHTML('./components/Dados/dados.edit.html');
     document.getElementById("data-content").innerHTML = htmlTemplate
         .replace("@{userName}", "Fernanda Monteiro")
         .replace("@{userEmail}","fernanda_monteiro@gmail.com")
