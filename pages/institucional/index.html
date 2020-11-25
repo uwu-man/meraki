@@ -5,32 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Meraki</title>
     
-    <link href="reset.css" rel="stylesheet"/>
-    <link href="ref.css" rel="stylesheet"/>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="header.html" rel="import"/>
+    <link href="../../reset.css" rel="stylesheet"/>
+    <link href="../../ref.css" rel="stylesheet"/>
+    <link href="../../index.css" rel="stylesheet" media="screen and (min-width: 480px)"/>
+    <link href="../../index-cel.css" rel="stylesheet" media="screen and (max-width: 480px)"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        <nav class='nav-superior'>
-            <img id="logo-nav-sup" src='assets/MERAKI_LogoHorizontal_fundotransparente.png' alt="Projeto Meraki">
-            <a id='login-button' class='buttonpage' href='./pages/login.html'>Login</a>
-
-            <ul class='nav-superior-items'>
-                <li class='nav-subitem'><a href="#projeto">O Projeto</a></li>
-                <li class='nav-subitem'><a href='#aluno'>Ser aluno</a></li>
-                <li class='nav-subitem'><a href='#trabalhe-conosco'>Trabalhe conosco</a></li>
-                <li class='nav-subitem'><a href='#contato'>Contato</a></li>
-                <li class='nav-subitem'><a href='./pages/materias.html'>Matérias</a></li>
-            </ul>
-        </nav>
+        <script src="../../load.js"></script>
+        <div id="header"></div>
     </header>
     <main>
         <div id='projeto' >
             <div class='conteudo'>
-                <img src="assets/MERAKI_LogoRedondo_Branco_fundotransparente.png">
+                <img src="../../assets/MERAKI_LogoRedondo_Branco_fundotransparente.png" id="img-index">
                 <div class='espacador-horizontal'></div>
                 <div class='texto-conteudo'>
                     <h2 class='titleAzul title'><b>O Projeto Meraki</b></h2>
@@ -45,26 +40,22 @@
                     <h2 class='titleBranco title'><b>Quero ser aluno</b></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet mauris gravida orci consectetur commodo. Nulla eget faucibus erat, interdum accumsan nisi. Fusce semper vestibulum lacus at aliquet. Mauris id sapien non tellus maximus tristique. Vestibulum molestie ullamcorper ante, a egestas augue gravida eget. Donec tincidunt nibh elit. Donec dictum vehicula libero, non facilisis urna interdum ac. <br>
                         Fusce posuere orci nec arcu viverra faucibus. Nam hendrerit in nulla ac gravida. Donec in laoreet dui. Ut molestie risus ut aliquam convallis. Mauris placerat enim quis tempus sodales. Fusce id arcu maximus, pellentesque justo eu, tristique sapien. Mauris hendrerit maximus risus sit amet eleifend. Proin posuere vulputate tellus. Nam nec fringilla tortor. </p>
-                        <a class='buttonpage' href='./pages/cadastro-aluno.html'>Quero participar</a>
+                        <a class='buttonpage' href='cadastro-aluno.html'>Quero participar</a>
                     </div>
-
                     <div class='espacador-horizontal'></div>
-                    <img src="assets/MERAKI_LogoRedondo_fundotransparente.png" alt="">
-
+                    <img src="../../assets/MERAKI_LogoRedondo_fundotransparente.png" alt="" id="img-index">
                 </div>
             </div>
-
         <div >
-            
             <div id='trabalhe-conosco'>
                 <div class='conteudo'>
-                    <img src="assets/MERAKI_LogoRedondo_Branco_fundotransparente.png">
+                    <img src="../../assets/MERAKI_LogoRedondo_Branco_fundotransparente.png" id="img-index">
                     <div class='espacador-horizontal'></div>
                     <div class='texto-conteudo'>
                         <h2 class="title titleAzul"><b>Trabalhe conosco</b></h2>
                         <p class='section-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet mauris gravida orci consectetur commodo. Nulla eget faucibus erat, interdum accumsan nisi. Fusce semper vestibulum lacus at aliquet. Mauris id sapien non tellus maximus tristique. Vestibulum molestie ullamcorper ante, a egestas augue gravida eget. Donec tincidunt nibh elit. Donec dictum vehicula libero, non facilisis urna interdum ac. <br>
                             Fusce posuere orci nec arcu viverra faucibus. Nam hendrerit in nulla ac gravida. Donec in laoreet dui. Ut molestie risus ut aliquam convallis. Mauris placerat enim quis tempus sodales. Fusce id arcu maximus, pellentesque justo eu, tristique sapien. Mauris hendrerit maximus risus sit amet eleifend. Proin posuere vulputate tellus. Nam nec fringilla tortor. </p>
-                        <a class='buttonpage button-branco' href='./pages/cadastro-voluntario.html'>Quero me cadastrar</a>
+                        <a class='buttonpage button-branco' href='cadastro-voluntario.html'>Quero me cadastrar</a>
                     </div>
                 </div>
             </div>
@@ -79,28 +70,14 @@
                     <p>Responsável 3: email3@gmail.com -  (11) 9 1234-5678 </p>
                 </div>
                 <div class='espacador-horizontal'></div>
-                <img id="logo-contatos" src="assets/MERAKI_LogoRedondo_Branco.png">
+                <img id="logo-contatos" src="../../assets/MERAKI_LogoRedondo_Branco.png" >
             </div>
         </div>
         
     </main>
     <!-- -->
     <footer>
-        <h3>
-            <b>Parceiros</b>
-            <b>Redes Sociais</b>
-        </h3>
-        <div class='logo-redes'>
-            <a href="https://www.facebook.com/projetomeraki.estudos/">
-                <img src="./assets/facebook_cinza.png" alt="logo-facebook">
-            </a>
-            <a href="site"><!-- completar -->
-                <img src="./assets/youtube_cinza.png" alt="logo-youtube">
-            </a> 
-            <a href="https://www.instagram.com/projetomeraki.estudos/">
-                <img class='last-logo' src="./assets/instagram_cinza.png" alt="logo-instagram">
-            </a>
-        </div>
+        <div id="footer"></div>
     </footer>
     </div>
 </body>

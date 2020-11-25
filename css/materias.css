@@ -7,7 +7,6 @@ footer {
 .conteudo {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -83,8 +82,11 @@ footer {
 }
 
 #homepage-button{
-    margin-right: 5%;
-    align-self: flex-end;
-    position:relative;
-    top:-1vh;
+    position: fixed;
+    right: 50px;
+    margin-bottom: 10px
+}
+
+.buttonpage {
+    margin-top: 35px;
 }

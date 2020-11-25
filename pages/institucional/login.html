@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Projeto Meraki</title>
 
-    <link href="../reset.css" rel="stylesheet"/>
-    <link href="../ref.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../css/login.css">
+    <link href="../../reset.css" rel="stylesheet"/>
+    <link href="../../ref.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/login.css">
+    <link href="../../index.css" rel="stylesheet" media="screen and (min-width: 480px)"/>
+    <link href="../../index-cel.css" rel="stylesheet" media="screen and (max-width: 480px)"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <nav class='nav-superior'>
-            <img id="logo-nav-sup" src='../assets/MERAKI_LogoHorizontal_fundotransparente.png' alt="Projeto Meraki">
-            <a id="voltar-button" class="buttonpage" href="../index.html">Página inicial</a>
-        </nav>
+        <script src="../../load.js"></script>
+        <div id="header"></div>
     </header>
     <main>
         <div class='texto-conteudo'>
@@ -28,24 +31,11 @@
             <a class="button-branco" href="../pages/dashboard/inicio.html">Enviar</a>
         </div>         
     </main>
+    <div class="login-separacao"></div>
 
     <!-- -->
     <footer>
-        <h3>
-            <b>Parceiros</b>
-            <b>Redes Sociais</b>
-        </h3>
-        <div class='logo-redes'>
-            <a href="https://www.facebook.com/projetomeraki.estudos/">
-                <img src="../assets/facebook_cinza.png" alt="logo-facebook">
-            </a>
-            <a href="site"><!-- completar -->
-                <img src="../assets/youtube_cinza.png" alt="logo-youtube">
-            </a> 
-            <a href="https://www.instagram.com/projetomeraki.estudos/">
-                <img class='last-logo' src="../assets/instagram_cinza.png" alt="logo-instagram">
-            </a>
-        </div>
+        <div id="footer"></div>
     </footer>
 </body> 
 </html>
