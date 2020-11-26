@@ -103,6 +103,14 @@ header{
     position: relative;
 }
 
+#materiasHeader{
+    padding:1em 0em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
 #aluno{
     padding:3em 0em;
     background: url(assets/bg.png);
@@ -113,7 +121,7 @@ header{
 }
 
 #trabalhe-conosco{
-    padding:2em 0em;
+    padding:1em 0em;
     background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -122,7 +130,8 @@ header{
 }
 
 #contato{
-    background-color: var(--white);
+    padding:0.5em 0em;
+    background: url(assets/bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -138,11 +147,19 @@ header{
     height:5vh;
 }
 
+.negrito{
+    font-weight: 600;
+}
+
 .title {
     font-size:115%;
     position:relative;
     left:-3vw;
     margin-bottom: 3vh;
+}
+
+.titleAzul {
+    color: #fff;
 }
 
 .texto-conteudo {
@@ -160,6 +177,8 @@ header{
     flex-direction:row ;
     justify-content: space-between;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
  .conteudo h2 {
@@ -167,7 +186,7 @@ header{
  }
 
  .conteudo .titleAzul {
-    color: var(--white);
+    color: var(--azul-meraki);
  }
 
  .conteudo .titleBranco {
@@ -184,7 +203,8 @@ header{
 
 /* Footer */
 footer{
-    background-color: var(--azul-meraki);   
+    background-color: var(--azul-meraki);  
+     
  }
 
 h3{
@@ -195,6 +215,8 @@ h3{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
  }
 
  .logo-redes{
@@ -203,23 +225,33 @@ h3{
     justify-content: flex-end;
     padding-right: 10.4% ;
     padding-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
     padding-left: 7px;
+    margin-left: 15%;
+    margin-right: 15%;
  }
 
  .last-logo{
-     padding-right: 10%;
+    padding-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
  }
 
  .logo-contatos{
-     width:20vw
+     width:20vw;
+     margin-left: 15%;
+    margin-right: 15%;
  }
 
  .footer-space{
     padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
  }
 
