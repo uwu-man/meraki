@@ -14,7 +14,6 @@
  .questionario-box{
      background-color: #C4C4C4;
      border-radius: 5px;
-     margin-bottom: 10px;
 }
 
 .tipo1{
@@ -34,18 +33,23 @@
     height: 90px;
 }
 
-.idade-e-cel{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.nome-e-sobrenome{
+    margin-bottom: 1%;
 }
+
+.email{
+    margin-bottom: 2%;
+}
+
 .idade{
     width: 20%;
     margin-left: 24%;
+    margin-bottom: 1%;
 }
 .cel{
     width: 30%;
     margin-left: 24%;
+    margin-bottom: 1%;
 }
 
 .questionario .buttonpage{
@@ -78,9 +82,9 @@
     width: 65%;
 }
 
-.questionario-opicional{
+.questionario-opcional{
     padding:3em 0em;
-    background: url(../assets/bg.svg);
+    background: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -98,6 +102,11 @@ h2.white-text{
 
 .perguntas-branco{
     color: #ffffff;
+    margin: 1%;
+}
+
+.perguntas{
+    margin: 1%;
 }
 
 .questionario-ultimo-item{
