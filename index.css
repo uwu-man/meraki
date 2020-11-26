@@ -104,7 +104,8 @@ header{
 }
 
 #aluno{
-    background-color: var(--white);
+    padding:3em 0em;
+    background: url(assets/bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -113,8 +114,8 @@ header{
 }
 
 #trabalhe-conosco{
-    padding:3em 0em;
-    background: url(assets/bg.png);
+    padding:2em 0em;
+    background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
