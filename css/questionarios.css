@@ -41,14 +41,29 @@
 }
 .idade{
     width: 20%;
-    margin-right: 2%;
+    margin-left: 24%;
 }
 .cel{
     width: 30%;
+    margin-left: 24%;
 }
 
 .questionario .buttonpage{
     margin-bottom: 30px;
+}
+
+.texto-sob-caixa{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding-left: 25%;
+}
+
+.texto-sob-caixa-2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding-left: 4%;
 }
 
 .texto-questionario{
