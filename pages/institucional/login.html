@@ -29,18 +29,8 @@
             <input type="email" class="login-box" placeholder="usuario ou e-mail"></input>                                                   
             <input type="password" class="login-box" placeholder="senha"></input>                                                          
             <a id="password-button" href="./recuperar-senha.html" >Esqueci minha senha</a>
-            <a class="button-branco" href="../pages/dashboard/inicio.html">Enviar</a>
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        </div>     
-        <a href="#" onclick="signOut();">Sign out</a>
-        <script>
-        function signOut() {
-            var auth2 = gapi.auth2.getAuthInstance();
-            auth2.signOut().then(function () {
-            console.log('User signed out.');
-            });
-        }
-        </script>    
+            <a class="button-branco" href="../dashboard/inicio.html">Enviar</a>
+        </div>         
     </main>
     <div class="login-separacao"></div>
 
