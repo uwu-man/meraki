@@ -110,7 +110,6 @@ header{
     background-size: 100% 100%;
     background-position: center;
     position: relative;
-
 }
 
 #trabalhe-conosco{
@@ -123,15 +122,12 @@ header{
 }
 
 #contato{
-    padding:1em 0em;
-    background: url(assets/bg.png);
     background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    font-weight: 600;
+    position: relative;
 }
-
 #voltar-button{
     margin-bottom: 20px;
 }
@@ -154,13 +150,7 @@ header{
     height:70%;
     display:flex;
     flex-direction: column;
-}
 
-#contato .texto-conteudo{
-    align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 7%;
 }
 
 .conteudo {
@@ -170,8 +160,6 @@ header{
     flex-direction:row ;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
  .conteudo h2 {
@@ -190,15 +178,6 @@ header{
     text-align: justify;
  }
 
- .center {
-    margin: 0 2em;
-    height:80%;
-    display: flex;
-    flex-direction:row ;
-    justify-content: space-between;
-    align-items: center;
-}
-
  .espacador-horizontal {
      width:20vw;
  }
@@ -206,7 +185,6 @@ header{
 /* Footer */
 footer{
     background-color: var(--azul-meraki);   
-    
  }
 
 h3{
@@ -217,8 +195,6 @@ h3{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
  .logo-redes{
@@ -227,16 +203,12 @@ h3{
     justify-content: flex-end;
     padding-right: 10.4% ;
     padding-top: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
     padding-left: 7px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
  .last-logo{
@@ -250,3 +222,4 @@ h3{
  .footer-space{
     padding-top: 50px;
  }
+
