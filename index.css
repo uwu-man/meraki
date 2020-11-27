@@ -101,6 +101,7 @@ header{
     background-size: 100% 100%;
     background-position: center;
     position: relative;
+    padding-bottom: 1%;
 }
 
 #materiasHeader{
@@ -121,7 +122,6 @@ header{
 }
 
 #trabalhe-conosco{
-    padding:1em 0em;
     background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -183,6 +183,7 @@ header{
 
  .conteudo h2 {
     font-weight: bold;
+    
  }
 
  .conteudo .titleAzul {
@@ -195,6 +196,7 @@ header{
 
  .conteudo p {
     text-align: justify;
+    line-height: 30px ;
  }
 
  .espacador-horizontal {

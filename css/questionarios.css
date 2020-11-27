@@ -12,7 +12,7 @@
 }
 
  .questionario-box{
-     background-color: #C4C4C4;
+     background-color: #fff;
      border-radius: 5px;
 }
 
@@ -61,6 +61,7 @@
     align-items: flex-start;
     text-align: start;
     padding-left: 25%;
+    text-align: left;
 }
 
 .texto-sob-caixa-2{
@@ -68,6 +69,7 @@
     align-items: flex-start;
     text-align: start;
     padding-left: 4%;
+    text-align: left;
 }
 
 .texto-questionario{
@@ -103,6 +105,7 @@ h2.white-text{
 .perguntas-branco{
     color: #ffffff;
     margin: 1%;
+    
 }
 
 .perguntas{
