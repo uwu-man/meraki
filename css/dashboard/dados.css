@@ -1,5 +1,6 @@
 .content {
     display:flex;
+    overflow: auto;
 }
 
 .content ul {
