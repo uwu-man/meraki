@@ -42,3 +42,10 @@
     margin:8px;
     font-size: 200%;
 }
+
+@media only screen and (max-width: 768px) {
+    .video-info h1 {
+        font-size: 130%;;
+    }
+
+}

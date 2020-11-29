@@ -28,6 +28,7 @@
 }
 
 .titulo-carrossel {
+    
     font-size:1.5rem;
     width:90%;
     color:var(--azul-meraki);
@@ -113,4 +114,28 @@
 .sublista-disciplina li{
     display:flex;
     flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .div-disciplina {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-disciplina {
+        width:80%;
+    }
+
+    .carrossel{
+        width:80%;
+    }
+
+    .slick-slide {
+        margin: 0 5vw;
+    }
+
+    .slick-list {
+        margin: 2vh 0;
+    }
 }

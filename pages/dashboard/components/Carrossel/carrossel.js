@@ -1,6 +1,9 @@
 /* Define os parâmetros pro carrossel */
 let setupCarousel = (carrosselID) => {
     numberOfFrames = 3;
+    if ( $(document).width() <= 768){
+        numberOfFrames = 1;
+    }
     $(document).ready(function(){
         $(`#${carrosselID}`).slick({
             slidesToShow: numberOfFrames,
@@ -46,8 +49,8 @@ let renderCarousel = async (carouselID, carouselItems) => {
 
 let carouselElement = (carouselItems, item) =>{
     let htmlReturned = "";
+    htmlReturned += `<img class="-carrossel-thumb" src=${getThumbnail(carouselItems[item].url)}></img>`
     htmlReturned += `<p>${carouselItems[item].titulo}</p>`;
-    htmlReturned += `<a><img class="-carrossel-thumb" src=${getThumbnail(carouselItems[item].url)}></img></a>`
 
     return `<div onclick='renderVideo("${carouselItems[item].url}","${carouselItems[item].titulo}")' class='carrossel-item'>${htmlReturned}</div>`
 }
