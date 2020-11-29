@@ -159,7 +159,7 @@ header{
 }
 
 .titleAzul {
-    color: #fff;
+    color: var(--azul-meraki);
 }
 
 .texto-conteudo {
@@ -191,8 +191,12 @@ header{
  }
 
  .conteudo .titleBranco {
-    color: #000;
+    color: #fff;
  }
+
+ .titlePreto{
+     color: #000;
+ } 
 
  .conteudo p {
     text-align: justify;
@@ -206,29 +210,19 @@ header{
 /* Footer */
 footer{
     background-color: var(--azul-meraki);  
-     
  }
 
 h3{
     color: var(--white);
     font-size: larger;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
  .logo-redes{
     display:flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-right: 10.4% ;
+    justify-content: space-between;
     padding-top: 5px;
-    margin-left: 15%;
     margin-right: 15%;
+    margin-left: 17%;
  }
 
  .logo-redes img {
@@ -246,8 +240,8 @@ h3{
  }
 
  .logo-contatos{
-     width:20vw;
-     margin-left: 15%;
+    width:20vw;
+    margin-left: 15%;
     margin-right: 15%;
  }
 
@@ -256,4 +250,32 @@ h3{
     margin-left: 15%;
     margin-right: 15%;
  }
+
+.parceiros{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 15%;
+}
+
+.emails_footer{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 15%;
+}
+
+.logos{
+    display: flex;
+    width: 15%;
+}
+
+.texto_footer_titulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 

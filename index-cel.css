@@ -115,7 +115,7 @@ header{
 }
 
 #aluno{
-    background-color: var(--white);
+    background-color: var(--azul-meraki);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -183,7 +183,7 @@ header{
  }
 
  .conteudo .titleAzul {
-    color: var(--white);
+    color: var(--azul-meraki);
     justify-content: center;
  }
 
