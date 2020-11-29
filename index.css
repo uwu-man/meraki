@@ -217,26 +217,24 @@ h3{
     font-size: larger;
  }
 
+h3 p{
+    font-size: small;
+}
+
  .logo-redes{
     display:flex;
-    justify-content: space-between;
-    padding-top: 5px;
-    margin-right: 15%;
-    margin-left: 17%;
+    flex-direction: column;
+    align-self: flex-start;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
-    padding-left: 7px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
- .last-logo{
-    padding-right: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
+ .middle-logo{
+    padding-right: 5%;
+    padding-left: 5%;
  }
 
  .logo-contatos{
@@ -247,8 +245,6 @@ h3{
 
  .footer-space{
     padding-top: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
 .parceiros{
@@ -256,19 +252,18 @@ h3{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 15%;
+    align-self: flex-start;
 }
 
 .emails_footer{
     display:flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 15%;
+    align-self: flex-start;
 }
 
 .logos{
     display: flex;
-    width: 15%;
 }
 
 .texto_footer_titulos{

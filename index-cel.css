@@ -14,7 +14,7 @@ main {
 footer {
     position: relative;
     height: 20vh;
-    font-size: 100%;
+    font-size: 70%;
     align-items: center;
 }
 
@@ -65,8 +65,7 @@ header{
     align-items: center;
     position:fixed;
     background-color: var(--white);
-    z-index: 4;
-    
+    z-index: 4; 
 }
 
 #logo-nav-sup {
@@ -74,11 +73,12 @@ header{
 }
 
 .nav-superior-items{
-     width:60em;
-     padding:1em 0;
-     display:flex;
-     flex-direction: row;
-     justify-content: space-around;
+    padding:1em 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+
  }
 
  .nav-superior-items a, .nav-superior-items a:visited{
@@ -124,10 +124,10 @@ header{
 }
 
 #trabalhe-conosco{
-    padding:3em 0em;
-    background-color: var(--azul-meraki);
+    padding:2em 0em;
+    background-color: var(--white);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 80% 80%;
     background-position: center;
     position: relative;
     z-index: 2;
@@ -141,6 +141,7 @@ header{
     position: relative;
     z-index: 2;
 }
+
 #voltar-button{
     margin-bottom: 20px;
 }
@@ -150,6 +151,8 @@ header{
     width:100%;
     height:5vh;
 }
+
+
 
 .title {
     font-size:115%;
@@ -164,7 +167,6 @@ header{
     height:70%;
     display:flex;
     flex-direction: column;
-
 }
 
 .conteudo {
@@ -207,29 +209,66 @@ h3{
     font-size: larger;
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-top: 5vh;
+    margin-right: 5%;
+ }
+
+ .emails_footer{
+    font-size: larger;
+ }
+
+ .emails_footer p{
+    font-size: small;
  }
 
  .logo-redes{
     display:flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-right: 10.4% ;
-    padding-top: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: flex-start;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
-    padding-left: 7px;
  }
 
- .last-logo{
-     padding-right: 10%;
+ .middle-logo{
+    padding-right: 5%;
+    padding-left: 5%;
  }
 
  .logo-contatos{
      width:20vw
  }
+
+ .parceiros{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+.emails_footer{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.logos{
+    display: flex;
+}
+
+.texto_footer_titulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-text{
+    color: #000;
+}
