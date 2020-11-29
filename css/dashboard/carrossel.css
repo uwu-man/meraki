@@ -44,30 +44,41 @@
 }
 
 /*CSS pro display das disciplinas gravadas*/
+.div-disciplina {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .content-disciplina {
-    width:90%;
-    height:30vh;
+    width:45%;
+    height:25vh;
     border-radius: 10px;
     margin:2vh 0;
 
     display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 .logo-disciplina {
-    width:35%;
-
+    margin: 0 1vw;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .data-disciplina {
-    width:65%;
+    width:100%;
+    height: 100%;
 
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    
+    justify-content:center;
     align-items: center;
 }
 
@@ -76,17 +87,22 @@
 }
 
 .button-disciplina {
-    padding:5px;
+    padding:5px 8px;
+    margin:1vh 0;
     color:white;
     border:none;
     border-radius: 5px;
+}
+
+.button-disciplina:hover {
+    opacity: .5;
 }
 
 .primeira-linha-disciplina {
     display: flex;
     width:70%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .titulo-disciplina {
@@ -94,3 +110,7 @@
     font-size: 1.5em;
 }
 
+.sublista-disciplina li{
+    display:flex;
+    flex-direction: row;
+}

@@ -2,6 +2,8 @@
 
 
 body {
+    font-family: 'Raleway', sans-serif ;
+    
     background-image: url('../../assets/bg_dashboard.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +20,11 @@ a {
 }
 
 /*Content*/
+
+.page-title {
+    font-size: 250%;
+    margin: 2vh 0;
+}
 
 #upper-person-picture{
     height:100%;

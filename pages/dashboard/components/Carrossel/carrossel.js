@@ -47,6 +47,8 @@ let renderCarousel = async (carouselID, carouselItems) => {
 let carouselElement = (carouselItems, item) =>{
     let htmlReturned = "";
     htmlReturned += `<p>${carouselItems[item].titulo}</p>`;
-    htmlReturned += `<a><img class="-carrossel-thumb" src=${carouselItems[item].url}></img></a>`
-    return `<div class='carrossel-item'>${htmlReturned}</div>`
+    htmlReturned += `<a><img class="-carrossel-thumb" src=${getThumbnail(carouselItems[item].url)}></img></a>`
+
+    return `<div onclick='renderVideo("${carouselItems[item].url}","${carouselItems[item].titulo}")' class='carrossel-item'>${htmlReturned}</div>`
 }
+

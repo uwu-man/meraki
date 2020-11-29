@@ -19,11 +19,12 @@ img {
     
     color: var(--azul-meraki);
 }
+
 .side-nav ul li a{
     padding:1vh;
     display:flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: flex-start;
     font-size: 150%;
     font-weight:100;
 }
@@ -86,6 +87,9 @@ img {
         background-color: white;
        
     }
+
+    
+
     .side-nav li a p {
         display:none;
     }
