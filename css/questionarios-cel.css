@@ -134,9 +134,8 @@ h2.white-text{
 }
 
 .button-last{
-    display: flex;
     margin-bottom: 8%;
-    justify-content: center;
+    text-align: center;
 }
 
 /* Nav superior */
