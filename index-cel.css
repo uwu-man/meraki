@@ -32,18 +32,8 @@ footer {
     font-weight: 500;
 }
 
-.buttonpage:hover {
-    background-color: #8edafa ;
-    color: var(--white);
-}
-
 .button-branco {
     background-color: var(--white);
-    color: var(--azul-meraki);
-}
-
-.button-branco:hover {
-    background-color: #ccc;
     color: var(--azul-meraki);
 }
 
@@ -69,20 +59,17 @@ header{
 }
 
 #logo-nav-sup {
-    width: 50vw;
+    width: 40vw;
 }
 
 .nav-superior-items{
-    padding:1em 0;
+    padding:1em 5px;
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #fff;
-
+    justify-content: space-around;
  }
 
  .nav-superior-items a, .nav-superior-items a:visited{
-    color: rgba(0, 0, 0, 0);
+    color: #000;
     text-decoration: none;
     z-index: 0;
  }
@@ -124,13 +111,13 @@ header{
 }
 
 #trabalhe-conosco{
-    padding:2em 0em;
     background-color: var(--white);
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: center;
     position: relative;
     z-index: 2;
+    padding-bottom: 3em;
 }
 
 #contato{
@@ -269,6 +256,6 @@ h3{
     justify-content: space-between;
 }
 
-.nav-text{
-    color: #000;
+.nav-subitem{
+    padding-left: 20px;
 }

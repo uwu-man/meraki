@@ -1,0 +1,149 @@
+/* Questionario */
+
+
+.questionario{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-size: medium;
+    text-align: start;
+    color: var(--azul-meraki);
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.questionario2{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-size: medium;
+    text-align: start;
+    color: var(--azul-meraki);
+    font-weight: bolder;
+
+}
+
+ .questionario-box{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tipo1{
+    width: 90%;
+    height: 30px;
+}
+.tipo2{
+    width: 90%;
+    height: 30px;
+}
+.tipo3{
+    width: 90%;
+    height: 30px;
+}
+.tipo4{
+    width: 90%;
+    height: 90px;
+}
+
+.nome-e-sobrenome{
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.email{
+    margin-bottom: 2%;
+}
+
+.idade{
+    width: 50%;
+    margin-bottom: 2%;
+}
+.cel{
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.questionario .buttonpage{
+    margin-bottom: 30px;
+}
+
+.texto-sob-caixa{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.texto-sob-caixa-2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.texto-questionario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: medium;
+}
+
+.subsubtitulo-questionario{
+    width: 90%;
+}
+
+.questionario-opcional{
+    padding:3em 0em;
+    width: 100%;
+    background-color: var(--azul-meraki);
+    position: relative;
+    margin-bottom: 5%;
+    display: block;
+}
+
+h2.white-text{
+    color: #ffffff;
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.perguntas-branco{
+    color: #ffffff;
+    margin-left: 5%;
+}
+
+.perguntas{
+    margin: 1%;
+}
+
+.questionario-ultimo-item{
+    margin-bottom: 3%;
+}
+
+.questionario .texto-azul{
+    color: var(--azul-meraki);
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.button-last{
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: center;
+}
+
+/* Nav superior */
+
+
+#voltar-button {
+    position: fixed;
+    right: 50px;
+    margin-bottom: 10px;
+}
