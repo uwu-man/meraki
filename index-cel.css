@@ -183,6 +183,15 @@ header{
  .conteudo p {
     text-align: justify;
  }
+ .texto-obrigado{
+    margin-bottom: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+
+ }
 
 /* Footer */
 footer{

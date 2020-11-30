@@ -14,6 +14,7 @@
  .questionario-box{
      background-color: #fff;
      border-radius: 5px;
+
 }
 
 .tipo1{
@@ -122,6 +123,13 @@ h2.white-text{
     margin-bottom: 15px;
     margin-top: 20px;
     text-align: left;
+    margin-left: 25%;
+}
+.button-last{
+    text-align: center;
+}
+
+.margin-quest{
     margin-left: 25%;
 }
 
