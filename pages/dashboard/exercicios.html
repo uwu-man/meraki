@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios - Dashboard</title>
+
+    <link href="../../ref.css" rel="stylesheet"/>
+    <link href="../../reset.css" rel="stylesheet"/>
+    <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
+    <link href="../../css/dashboard/exercicios.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="sidenav"></div>
+    <main>
+        <div class='content-header'>
+            <div id='content-header-text'>
+                <p>Fernanda Monteiro</p>
+                <a href="../institucional/index.html"><p>Sair</p></a>
+            </div>
+            <img id='upper-person-picture' src='../../assets/woman.svg'>
+        </div>
+        <div class="content" id="data-content"></div>
+    </main>
+    
+    <script src="./components/Exercicios/exercicios.js"></script>
+    <script src="./components/util.js"></script>
+    <script src="./components/Sidenav/sidenav.js"></script>
+    <script>
+        let template = createTemplate();
+        renderSidenav(template, "exercicios");
+        renderExercicios(template, "exercicios");
+    </script>
+
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</body>
+</html>
