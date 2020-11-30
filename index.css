@@ -7,7 +7,7 @@ body img {
 }
 main {
     position: relative;
-    top:5vh;
+    top:0vh;
     font-size: 120%;
     scroll-behavior: smooth;
 }
@@ -33,17 +33,17 @@ footer {
 
 .buttonpage:hover {
     background-color: #8edafa ;
-    color: var(--white);
+    color: var(--black);
 }
 
 .button-branco {
     background-color: var(--white);
-    color: var(--azul-meraki);
+    color: var(--black);
 }
 
 .button-branco:hover {
     background-color: #ccc;
-    color: var(--azul-meraki);
+    color: var(--black);
 }
 
 .button-azul {
@@ -98,10 +98,11 @@ header{
 #projeto{
     background: url(assets/bg_baixo.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: center bottom;
     position: relative;
-    padding-bottom: 1%;
+    padding: 5em 0em;
+    background-position-y: 89.5%;
 }
 
 #materiasHeader{
@@ -113,7 +114,7 @@ header{
 }
 
 #aluno{
-    padding:3em 0em;
+    padding:5em 0em;
     background: url(assets/bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -154,16 +155,16 @@ header{
 .title {
     font-size:115%;
     position:relative;
-    left:-3vw;
+    left:0vw;
     margin-bottom: 3vh;
 }
 
 .titleAzul {
-    color: #fff;
+    color: var(--azul-meraki);
 }
 
 .texto-conteudo {
-    margin:5vh;
+    margin-bottom:5vh;
     height:70%;
     display:flex;
     flex-direction: column;
@@ -171,7 +172,7 @@ header{
 }
 
 .conteudo {
-    margin: 0 2em;
+    padding: 0em 0em;
     height:80%;
     display: flex;
     flex-direction:row ;
@@ -191,8 +192,12 @@ header{
  }
 
  .conteudo .titleBranco {
-    color: #000;
+    color: #fff;
  }
+
+ .titlePreto{
+     color: #000;
+ } 
 
  .conteudo p {
     text-align: justify;
@@ -206,54 +211,67 @@ header{
 /* Footer */
 footer{
     background-color: var(--azul-meraki);  
-     
  }
 
 h3{
     color: var(--white);
     font-size: larger;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
+
+h3 p{
+    font-size: small;
+}
 
  .logo-redes{
     display:flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-right: 10.4% ;
-    padding-top: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
+    flex-direction: column;
+    align-self: flex-start;
  }
 
  .logo-redes img {
     width: 2em;
     height: auto;
-    padding-left: 7px;
-    margin-left: 15%;
-    margin-right: 15%;
  }
 
- .last-logo{
-    padding-right: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
+ .middle-logo{
+    padding-right: 5%;
+    padding-left: 5%;
  }
 
  .logo-contatos{
-     width:20vw;
-     margin-left: 15%;
+    width:20vw;
+    margin-left: 15%;
     margin-right: 15%;
  }
 
  .footer-space{
     padding-top: 50px;
+ }
+
+.parceiros{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.emails_footer{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.logos{
+    display: flex;
+}
+
+.texto_footer_titulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
- }
+}
 

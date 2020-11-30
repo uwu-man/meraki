@@ -6,19 +6,30 @@
     font-family: 'Raleway', sans-serif;
     margin-top: 5px;
     font-size: medium;
-    text-align: center;
+    text-align: start;
     color: var(--azul-meraki);
     font-weight: bolder;
+    margin-left: 5%;
+}
+
+.questionario2{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-size: medium;
+    text-align: start;
+    color: var(--azul-meraki);
+    font-weight: bolder;
+
 }
 
  .questionario-box{
-     background-color: #fff;
-     border-radius: 5px;
-
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 .tipo1{
-    width: 50%;
+    width: 90%;
     height: 30px;
 }
 .tipo2{
@@ -26,16 +37,17 @@
     height: 30px;
 }
 .tipo3{
-    width: 93.333%;
+    width: 90%;
     height: 30px;
 }
 .tipo4{
-    width: 50%;
+    width: 90%;
     height: 90px;
 }
 
 .nome-e-sobrenome{
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 .email{
@@ -43,14 +55,12 @@
 }
 
 .idade{
-    width: 20%;
-    margin-left: 24%;
-    margin-bottom: 1%;
+    width: 50%;
+    margin-bottom: 2%;
 }
 .cel{
-    width: 30%;
-    margin-left: 24%;
-    margin-bottom: 1%;
+    width: 50%;
+    margin-bottom: 2%;
 }
 
 .questionario .buttonpage{
@@ -61,16 +71,12 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    padding-left: 25%;
-    text-align: left;
 }
 
 .texto-sob-caixa-2{
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    padding-left: 4%;
-    text-align: left;
 }
 
 .texto-questionario{
@@ -78,21 +84,23 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 75%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: medium;
 }
 
 .subsubtitulo-questionario{
-    width: 65%;
+    width: 90%;
 }
 
 .questionario-opcional{
     padding:3em 0em;
-    background: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    width: 100%;
+    background-color: var(--azul-meraki);
     position: relative;
-
+    margin-bottom: 5%;
+    display: block;
 }
 
 h2.white-text{
@@ -100,13 +108,12 @@ h2.white-text{
     font-size: x-large;
     margin-bottom: 20px;
     text-align: left;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 .perguntas-branco{
     color: #ffffff;
-    margin: 1%;
-    
+    margin-left: 5%;
 }
 
 .perguntas{
@@ -114,7 +121,7 @@ h2.white-text{
 }
 
 .questionario-ultimo-item{
-    margin-bottom: 50px;
+    margin-bottom: 3%;
 }
 
 .questionario .texto-azul{
@@ -123,14 +130,17 @@ h2.white-text{
     margin-bottom: 15px;
     margin-top: 20px;
     text-align: left;
-    margin-left: 25%;
+    margin-left: 5%;
 }
+
 .button-last{
+    margin-bottom: 8%;
     text-align: center;
 }
 
-.margin-quest{
-    margin-left: 25%;
+.button-last-questionario{
+    margin-bottom: 15%;
+    text-align: center;
 }
 
 /* Nav superior */
