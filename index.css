@@ -98,10 +98,11 @@ header{
 #projeto{
     background: url(assets/bg_baixo.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     position: relative;
     padding-bottom: 1%;
+    background-position-y: 89%;
 }
 
 #materiasHeader{
@@ -163,7 +164,7 @@ header{
 }
 
 .texto-conteudo {
-    margin:5vh;
+    margin-bottom:5vh;
     height:70%;
     display:flex;
     flex-direction: column;
@@ -171,7 +172,7 @@ header{
 }
 
 .conteudo {
-    margin: 0 2em;
+    margin: 2em 2em;
     height:80%;
     display: flex;
     flex-direction:row ;

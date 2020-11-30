@@ -49,7 +49,7 @@ header{
 
 .nav-superior {
     width:100vw;
-    height: 20vh;
+    height: 25vh;
     display:flex;
     flex-direction: column;
     align-items: center;
