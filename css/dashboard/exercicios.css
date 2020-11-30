@@ -1,0 +1,97 @@
+.content {
+    display: block;
+    overflow: scroll;
+}
+
+.content ul {
+    padding:2vh;
+    width:97%; 
+}
+
+.content ul li {
+    font-size: 17px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.collapsible {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(106, 108, 110, 0.144);
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: #50c6f891;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+  }
+
+.course{
+    padding: 22px;
+    font-size: 20px;
+}
+
+.artes{
+    color:  rgba(231, 39, 167, 0.733);
+}
+.artes:hover {
+    background-color: rgba(231, 39, 167, 0.24);
+    text-decoration: underline;
+}
+
+.biologia{
+    color:  rgba(19, 136, 4, 0.664);
+}
+.biologia:hover {
+    background-color: rgba(61, 231, 39, 0.24);
+    text-decoration: underline;
+}
+
+.filosofia{
+    color:  rgba(77, 4, 136, 0.664);
+}
+.filosofia:hover {
+    background-color: rgba(77, 4, 136, 0.247);
+    text-decoration: underline;
+}
+
+.fisica{
+    color: rgba(192, 76, 9, 0.664);
+}
+.fisica:hover {
+    background-color: rgba(192, 76, 9, 0.253);
+    text-decoration: underline;
+}
+
+.questions {
+    padding-left: 20px;
+    display: none;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;  
+}
+
+.assignment{
+    color: rgb(85, 84, 84);
+}
+
+.assignment:hover{
+    color: #50C6F8;
+}
+
