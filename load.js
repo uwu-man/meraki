@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#header").load("header.html");
-  $("#footer").load("footer.html");
+  $("#header").load("./pages/institucional/header.html");
+  $("#footer").load("./pages/institucional/footer.html");
   $("#materias").load("materias.html");
 });

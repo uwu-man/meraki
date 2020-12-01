@@ -1,7 +1,9 @@
 /* Geral do dashboard */
 
- 
+
 body {
+    font-family: 'Raleway', sans-serif ;
+    
     background-image: url('../../assets/bg_dashboard.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,59 +19,12 @@ a {
     color:inherit;
 }
 
-
-/*Side nav*/
-img {
-    width:100%;
-    height:auto;
-}
-
-.side-nav {
-    width:17vw;
-    height:100vh;
-    background-color: var(--white);
-}
-
-.side-nav-selected {
-    background-color: var(--gray-light);
-    font-weight: bold;
-    color: var(--azul-meraki);
-}
-.side-nav-selected:visited {
-    
-    color: var(--azul-meraki);
-}
-
-
-ul {
-}
-
-.side-nav ul li a{
-    padding:1vh;
-    display:block;
-    width: 100%;
-    font-size: 150%;
-    font-weight:100;
-}
-
-.side-nav ul li:hover {
-    cursor: pointer;
-    color:var(--azul-meraki);
-}
-
-.horizontal-space {
-    width: 100%;
-    height:1vh;
-    background-color:var(--black)
-}
-
-.iconify{
-    font-size:130%;
-}
-#data-icon {
-}
-
 /*Content*/
+
+.page-title {
+    font-size: 250%;
+    margin: 2vh 0;
+}
 
 #upper-person-picture{
     height:100%;
@@ -111,5 +66,28 @@ main {
     height:88%;
     border-radius:10px;
     background-color:var(--white);
-    max-width: 79vw;
+    width: 79vw;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+        justify-content: center;
+        
+        align-content: center;
+        background-image:none;
+        background-color: var(--azul-meraki);
+    }
+    main {
+        width:90vw;
+        height:80vh;
+        margin:5vh 0 0 0 ;
+        align-self:center ;
+    }
+
+    .content {
+        margin:2vh 0 2vh 0;
+        height:80%;
+        width: 100%;
+        
+    }
 }

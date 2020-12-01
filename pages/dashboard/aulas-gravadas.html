@@ -12,6 +12,8 @@
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
     <link rel='stylesheet' href='../../css/dashboard/carrossel.css'>
+    <link rel='stylesheet' href='../../css/dashboard/sidenav.css'>
+    <link rel='stylesheet' href='../../css/dashboard/videosGravados.css'>
 
 </head>
 <body>
@@ -31,13 +33,14 @@
     </main>
 
 
+    
     <script src="./components/AulasGravadas/aulasGravadas.js"></script>
-
     <!-- Scripts para renderizar o sidenav/fetch/utilitarios-->
     <script src="./components/pseudo-db.js"></script>
-    <script src="./components/util.js"></script>
     <script src="./components/Sidenav/sidenav.js"></script>
     <script src="./components/Carrossel/carrossel.js"></script>
+    <script src="./components/VideosGravados/videosGravados.js"></script>
+    <script src="./components/util.js"></script>
 
     <!-- Scripts para rodar o carrossel do slick-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -48,7 +51,9 @@
         let template = createTemplate();
         renderSidenav(template, "material");
         renderAulasGravadas(template, "aulasGravadas");
-        //renderCarouselPage(pseudo_db.aulasGravadas.matematica,"aulasGravadas");
+        
+        console.log( $(document).width())
+
     </script>
 
     
