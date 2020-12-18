@@ -1,3 +1,5 @@
+/* */
+
 let pseudo_db = {
     aulasGravadas:{
         matematica: {
@@ -108,4 +110,126 @@ let pseudo_db = {
             
         },
     },
+}
+
+let user_data = {
+    nomeUsuario:"Fernanda Santos Monteiro",
+    emailUsuario:"fernanda_monteiro@gmail.com",
+    telefoneUsuario:"11 9 1234-5678",
+    gradPretendidaUsuario:"Psicologia",
+    avisos:{
+        0:{
+            content:"Você precisa entregar a lista 3 de Química Orgânica até terça-feira"
+        },
+        1:{
+            content:"Você precisa entregar a lista 2 de Genética até terça-feira"
+        },
+        3:{
+            content:"Você possui 3 artigos a serem lidos até quarta-feira"
+        },
+        4:{
+            content:"Você precisa entregar a lista 3 de Química Orgânica até terça-feira"
+        },
+        5:{
+            content:"Você precisa entregar a lista 2 de Genética até terça-feira"
+        },
+        6:{
+            content:"Você possui 3 artigos a serem lidos até quarta-feira"
+        },
+        7:{
+            content:"Você precisa entregar a lista 3 de Química Orgânica até terça-feira"
+        },
+        8:{
+            content:"Você precisa entregar a lista 2 de Genética até terça-feira"
+        },
+        9:{
+            content:"Você possui 3 artigos a serem lidos até quarta-feira"
+        }
+    },
+    aulasSeguintes:{
+        0:{
+            data:"19/02",
+            aulas:{
+                0:{
+                    titulo:"Literatura - Modernismo - Aula 03",
+                    horario:"19:00",
+                    voluntario: "Profª Danielle"
+                },
+                1:{
+                    titulo:"História - Revolução Francesa - Aula 04",
+                    horario:"21:00",
+                    voluntario: "Profº Márcio"
+                }
+            }
+        },
+        1:{
+            data:"20/02",
+            aulas:{
+                0:{
+                    titulo:"Literatura - Modernismo - Aula 03",
+                    horario:"19:00",
+                    voluntario: "Profª Danielle"
+                },
+                1:{
+                    titulo:"História - Revolução Francesa - Aula 04",
+                    horario:"21:00",
+                    voluntario: "Profº Márcio"
+                }
+            }
+        },
+        2:{
+            data:"19/02",
+            aulas:{
+                0:{
+                    titulo:"Literatura - Modernismo - Aula 03",
+                    horario:"19:00",
+                    voluntario: "Profª Danielle"
+                },
+                1:{
+                    titulo:"História - Revolução Francesa - Aula 04",
+                    horario:"21:00",
+                    voluntario: "Profº Márcio"
+                }
+            }
+        },
+        3:{
+            data:"20/02",
+            aulas:{
+                0:{
+                    titulo:"Literatura - Modernismo - Aula 03",
+                    horario:"19:00",
+                    voluntario: "Profª Danielle"
+                },
+                1:{
+                    titulo:"História - Revolução Francesa - Aula 04",
+                    horario:"21:00",
+                    voluntario: "Profº Márcio"
+                }
+            }
+        }
+    }
+}
+
+let padroes_materias = {
+    biologia:{
+        icone:"fa-solid:leaf",
+        cor:"var(--biologia)"
+    }, 
+    matematica:{
+        icone:"tabler:sum",
+        cor:"var(--matematica)"
+    },
+    quimica:{
+        icone:"fa-solid:leaf",
+        cor:"var(--biologia)"
+    },
+    historia:{
+        icone:"fa-solid:leaf",
+        cor:"var(--biologia)"
+    },
+    Literatura:{
+        icone:"fa-solid:leaf",
+        cor:"var(--biologia)"
+    }, 
+
 }

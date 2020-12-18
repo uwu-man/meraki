@@ -1,0 +1,86 @@
+.content {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-content {
+    width:100%;
+    margin:3%;
+}
+
+.inner-content h1 {
+    font-size:200%;
+}
+
+.inicio-container {
+    border: 3px solid var(--azul-meraki);
+    border-radius: 10px;
+    max-height:40%;
+    padding:1vh;
+    margin:1rem 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.aulas-seguintes {
+    display:flex;
+    flex-direction: column  ;
+    overflow:auto;
+}
+
+.aulas-seguintes p {
+    margin-top: 2vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aula-dia {
+    width:95%;
+    align-self: center;
+}
+
+.aula-dia p {
+    margin-top: 1vh;
+}
+
+.avisos-container {
+    display:flex;
+    justify-content: center;
+    overflow:auto;
+}
+
+.avisos {
+    width:100%;
+}
+
+.avisos li {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icone  {
+    color: var(--azul-meraki);
+    font-size: 200%;
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-content h1 {
+        font-size: 120%;
+    }
+
+    .inicio-container {
+        max-height: 35%;
+    }
+
+    .aula-dia p{
+        margin-top: 2vh;
+    }
+
+    .avisos li {
+        margin-top: 2vh;
+    }
+}

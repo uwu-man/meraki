@@ -9,6 +9,7 @@
     <link href="../../reset.css" rel="stylesheet"/>
     <link rel='stylesheet' href='../../css/dashboard/dashboard.css'>
     <link rel='stylesheet' href='../../css/dashboard/sidenav.css'>
+    <link rel='stylesheet' href='../../css/dashboard/inicio.css'>
 
     <style>
         
@@ -19,24 +20,25 @@
 
     </div>
     <main>
-        <div class='content-header'>
-            <div id='content-header-text'>
-                <p>Fernanda Monteiro</p>
-                <a href="../../index.html"><p>Sair</p></a>
-            </div>
-            <img id='upper-person-picture' src='../../assets/woman.svg'>
-        </div>
-        <div class="content">
-           
-        </div>
+        <div class='content-header' id='content-header'></div>
+
+        <div class="content" id="content"></div>
     </main>
 
     <script src="./components/Sidenav/sidenav.js"></script>
+    <script src="./components/UserHeader/userHeader.js"></script>
+    <script src="./components/Inicio/inicio.js"></script>
     <script src="./components/util.js"></script>
+
+    <script src="./components/pseudo-db.js"></script>
     <script>
         let template = createTemplate();
         renderSidenav(template, "inicio");
+        renderUserHeader(template, user_data);
+        renderInicio(template, user_data);
+        
     </script>
+    
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
     <script>

@@ -19,13 +19,8 @@
 <body>
     <div id="sidenav"></div>
     <main>
-        <div class='content-header'>
-            <div id='content-header-text'>
-                <p>Fernanda Monteiro</p>
-                <a href="../../index.html"><p>Sair</p></a>
-            </div>
-            <img id='upper-person-picture' src='../../assets/woman.svg'>
-        </div>
+        <div class='content-header' id='content-header'></div>
+
         <div class="carrossel-container content" id="aulasGravadas">
             
         </div>
@@ -41,6 +36,7 @@
     <script src="./components/Carrossel/carrossel.js"></script>
     <script src="./components/VideosGravados/videosGravados.js"></script>
     <script src="./components/util.js"></script>
+    <script src="./components/UserHeader/userHeader.js"></script>
 
     <!-- Scripts para rodar o carrossel do slick-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -50,6 +46,7 @@
     <script>
         let template = createTemplate();
         renderSidenav(template, "material");
+        renderUserHeader(template, user_data);
         renderAulasGravadas(template, "aulasGravadas");
         
         console.log( $(document).width())
