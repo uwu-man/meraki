@@ -33,14 +33,6 @@ let renderSidenav = async (template, pageSelection) => {
                 .replace('@{exercicios-selection}',"class='side-nav-selected'")
                 .replace('@{avisos-selection}',"");
             break;
-        case "avisos":
-            HTMLTemplate = HTMLTemplate
-                .replace('@{inicio-selection}',"")
-                .replace('@{dados-selection}',"")
-                .replace('@{material-selection}',"")
-                .replace('@{exercicios-selection}',"")
-                .replace('@{avisos-selection}',"class='side-nav-selected'");
-            break;
         default:
             break;
             
